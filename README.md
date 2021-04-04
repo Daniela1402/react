@@ -1,5 +1,5 @@
 <h1>
-  CALCULADORA REACT DANIELA
+ <center> CALCULADORA REACT DANIELA</center>
 </h1>
 
 <h2>
