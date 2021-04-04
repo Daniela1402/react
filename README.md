@@ -6,4 +6,4 @@
   En esta calculadora observaremos la funciones basicas como:
   Sumar, Multiplicar, Divir.
 </h2>
-<img src="public/calculadora.png" width="100"  height= "100" /> 
+<img src="public/calculadora.png" width="100%"  height= "100%" /> 
