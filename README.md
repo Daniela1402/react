@@ -1,4 +1,4 @@
-# CALCULADORA REACT DANIELA 🚀
+# CALCULADORA REACT DANIELA :computer:
   En esta calculadora observaremos la funciones basicas como:
   Sumar, Multiplicar, Divir.
 
