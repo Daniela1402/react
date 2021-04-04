@@ -222,9 +222,6 @@ function App() {
         </Typography>
       </Container>
     </React.Fragment>
-
-
-
   );
 }
 
