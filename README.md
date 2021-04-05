@@ -2,7 +2,7 @@
 
 ## Introducción :notebook: :pushpin:
   En esta calculadora observaremos la funciones basicas como:
-  Sumar, Multiplicar y Divir.
+  Sumar, Restar, Multiplicar y Divir.
 
 ### Paso a paso: Como desacargar el proyecto: :walking: 
 Para poder descargar el proyecto completo sigue los siguietes pasos:
