@@ -12,6 +12,13 @@ Para poder descargar el proyecto completo sigue los siguietes pasos:
 * **4: Luego de click en esa opción y automatica se descarga.**
 
 ## Instalación 🔧
+Par la intalación se utilizaron los siguientes comandos ya sea en la cmd o en git bash: 
+* **create-react-app practicareact**
+* **npm install -g create-react-app**
+* **npm cache clean --force**
+* **npm install -g npm@latest**
+* **Cd practicareact**
+* **Cd practicareact**
 
 ## Construido con 🛠️
  * **HTML** :stars:
