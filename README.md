@@ -11,7 +11,7 @@ Para poder descargar el proyecto completo sigue los siguietes pasos:
 * **3: Luego dirijase a la opcion de Download ZIP.**
 * **4: Luego de click en esa opción y automatica se descarga.**
 
-## Instalación 🔧
+## Instalación 🔧⚙️
 Par la intalación se utilizaron los siguientes comandos ya sea en la cmd o en git bash: 
 * **create-react-app practicareact**
 * **npm install -g create-react-app**
@@ -38,3 +38,5 @@ Par la intalación se utilizaron los siguientes comandos ya sea en la cmd o en g
 # Vista  pricipal de la calculadora :eyes: :pager:
 <img src="public/calculadora.png" width="100%"  height= "100%" /> 
 
+---
+⌨️ con ❤️ por [Daniela1402](https://github.com/Daniela1402) 😊
