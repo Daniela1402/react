@@ -33,7 +33,7 @@ Par la intalación se utilizaron los siguientes comandos ya sea en la cmd o en g
 * **Laura Daniela Beltran Tovar** :woman: :globe_with_meridians:
 
 ## Opiniones 📢
-¡ Por favor danos tu oponin para asi tenerlas en cuenta y mejorar nuestros proyectos.!
+¡Por favor danos tu opinión para así tenerlas en cuenta y mejorar nuestros proyectos.!
 
 # Vista  pricipal de la calculadora :eyes: :pager:
 <img src="public/calculadora.png" width="100%"  height= "100%" /> 
