@@ -1,18 +1,17 @@
 # Bienvenidos a la  Calcualdora React de Daniela :computer: :1234:
 
 ## Introducción :notebook: :pushpin:
-  En esta calculadora observaremos la funciones basicas como:
-  Sumar, Restar, Multiplicar y Divir.
+En esta calculadora observaremos la funciones básicas como: Sumar, Restar, Multiplicar y Dividir.
 
 ### Paso a paso: Como desacargar el proyecto: :walking: 
 Para poder descargar el proyecto completo sigue los siguietes pasos:
-* **1: Dirigirse al Boton Code.**
+* **1: Dirigirse al Botón Code.**
 * **2: Luego de Click en el.**
-* **3: Luego dirijase a la opcion de Download ZIP.**
-* **4: Luego de click en esa opción y automatica se descarga.**
+* **3: Luego diríjase a la opción de Download ZIP.**
+* **4: Luego de click en esa opción y automática se descarga el archivo comprimido.**
 
 ## Instalación 🔧⚙️
-Par la intalación se utilizaron los siguientes comandos ya sea en la cmd o en git bash: 
+Para la instalación se utilizaron los siguientes comandos ya sea en la cmd o en git bash:  
 * **create-react-app practicareact**
 * **npm install -g create-react-app**
 * **npm cache clean --force**
@@ -39,4 +38,4 @@ Par la intalación se utilizaron los siguientes comandos ya sea en la cmd o en g
 <img src="public/calculadora.png" width="100%"  height= "100%" /> 
 
 ---
-⌨️ con ❤️ por [Daniela1402](https://github.com/Daniela1402) 😊
+⌨️ con ❤️ por [Laura Daniela Tovarr](https://github.com/Daniela1402) 😊
