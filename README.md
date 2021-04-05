@@ -38,4 +38,4 @@ Para la instalación se utilizaron los siguientes comandos ya sea en la cmd o en
 <img src="public/calculadora.png" width="100%"  height= "100%" /> 
 
 ---
-⌨️ con ❤️ por [Laura Daniela Tovarr](https://github.com/Daniela1402) 😊
+⌨️ con ❤️ por [Laura Daniela Tovar](https://github.com/Daniela1402) 😊

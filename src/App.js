@@ -32,7 +32,7 @@ function App() {
     <React.Fragment>
       <CssBaseline />
       <Container fixed className={classes.altura}>
-        <Typography component="div" style={{ backgroundColor: '#c0c0c0', height: '100vh' }} >
+        <Typography component="div" style={{ backgroundColor: '#8088BA', height: '100' }} >
           <div className={classes.root}>
             <Grid container spacing={3}>
               <Grid item xs={12}>
