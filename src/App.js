@@ -182,7 +182,6 @@ function App() {
               <Grid item xs={2}>
               </Grid>
               
-
               <Grid item xs={2}>
               </Grid>
               <Grid item xs={2}>
@@ -199,24 +198,13 @@ function App() {
                   </Button>
                 </Paper>
               </Grid>
-              <Grid item xs={2}>
+              <Grid item xs={4}>
                 <Paper className={classes.paper}>
                   <Button variant="outlined" color="primary">
                     =
                   </Button>
                 </Paper>
               </Grid>
-              <Grid item xs={2}>
-                <Paper className={classes.paper}>
-                  <Button variant="outlined" color="primary">
-                    +
-                  </Button>
-                </Paper>
-              </Grid>
-
-
-
-
             </Grid>
           </div>
         </Typography>
