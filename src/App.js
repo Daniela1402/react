@@ -32,7 +32,7 @@ function App() {
     <React.Fragment>
       <CssBaseline />
       <Container fixed className={classes.altura}>
-        <Typography component="div" style={{ backgroundColor: '#c0c0c0', height: '100vh' }} >
+        <Typography component="div" style={{ backgroundColor: '#8088BA', height: '100' }} >
           <div className={classes.root}>
             <Grid container spacing={3}>
               <Grid item xs={12}>
@@ -182,7 +182,6 @@ function App() {
               <Grid item xs={2}>
               </Grid>
               
-
               <Grid item xs={2}>
               </Grid>
               <Grid item xs={2}>
@@ -199,32 +198,18 @@ function App() {
                   </Button>
                 </Paper>
               </Grid>
-              <Grid item xs={2}>
+              <Grid item xs={4}>
                 <Paper className={classes.paper}>
                   <Button variant="outlined" color="primary">
                     =
                   </Button>
                 </Paper>
               </Grid>
-              <Grid item xs={2}>
-                <Paper className={classes.paper}>
-                  <Button variant="outlined" color="primary">
-                    +
-                  </Button>
-                </Paper>
-              </Grid>
-
-
-
-
             </Grid>
           </div>
         </Typography>
       </Container>
     </React.Fragment>
-
-
-
   );
 }
 
