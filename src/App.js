@@ -27,6 +27,61 @@ const useStyles = makeStyles((theme) => ({
 }));
 function App() {
   const classes = useStyles();
+  const [ currVal, setCurrVal ] = useState("");
+  const [ operator, setOperator ] = useState(null);
+  const [ prevVal, setPrevVal ] = useState(null);
+
+  function procesocalculdora(TipoDato, Valor){
+
+    if(TipoDato === "operator") {
+      setOperator(Valor);
+      setPrevVal(currVal);
+      setCurrVal("");
+  }
+  if(TipoDato === "clear") {
+    setCurrVal("");
+    setOperator(null);
+    setPrevVal(null);
+}
+
+if(TipoDato === "porcentaje") {
+  setCurrVal(`${parseFloat(currVal) * 0.01}`);
+}
+
+if(TipoDato === "number") {
+  setCurrVal(`${currVal}${Valor}`);
+}
+
+  if(TipoDato === "equal") {
+    const current = parseFloat(currVal);
+    const previous = parseFloat(prevVal);
+
+    if(operator === "+") {
+        setCurrVal(previous + current);
+        setOperator(null);
+        setPrevVal(null);
+    }
+
+    if(operator === "/") {
+      setCurrVal(previous / current);
+      setOperator(null);
+      setPrevVal(null);
+  }
+
+    if(operator === "-") {
+        setCurrVal(previous - current);
+        setOperator(null);
+        setPrevVal(null);
+    }
+
+    if(operator === "*") {
+        setCurrVal(previous * current);
+        setOperator(null);
+        setPrevVal(null);
+    }
+}
+  }
+
   return (
 
     <React.Fragment>
