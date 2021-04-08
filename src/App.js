@@ -64,10 +64,10 @@ if(TipoDato === "number") {
     }
 
     if(operator === "/") {
-        setCurrVal(previous / current);
-        setOperator(null);
-        setPrevVal(null);
-    }
+      setCurrVal(previous / current);
+      setOperator(null);
+      setPrevVal(null);
+  }
 
     if(operator === "-") {
         setCurrVal(previous - current);
