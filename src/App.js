@@ -49,9 +49,9 @@ if(TipoDato === "porcentaje") {
   setCurrVal(`${parseFloat(currVal) * 0.01}`);
 }
 
-    if(TipoDato === "number") {
-      setCurrVal(`${currVal}${Valor}`);
-  }
+if(TipoDato === "number") {
+  setCurrVal(`${currVal}${Valor}`);
+}
 
   if(TipoDato === "equal") {
     const current = parseFloat(currVal);
