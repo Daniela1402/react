@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-undef */
 import React, { useState } from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
