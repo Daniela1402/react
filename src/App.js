@@ -159,7 +159,7 @@ if(TipoDato === "number") {
               <Grid item xs={2}>
                 <Paper className={classes.paper}>
                   <Button variant="outlined" color="primary"  onClick={() => procesocalculdora("operator","*")}>
-                    *
+                    x
                   </Button>
                 </Paper>
               </Grid>
