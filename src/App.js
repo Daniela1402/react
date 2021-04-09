@@ -94,7 +94,7 @@ if(TipoDato === "number") {
                 <Paper className={classes.paper}>
                   <form className={classes.root} noValidate autoComplete="off">
                    
-                    <TextField id="outlined-basic" fullWidth label="Ingrese un numero" className={classes.textGrande} variant="outlined" 
+                    <TextField id="outlined-basic" fullWidth label="Ingrese un número" className={classes.textGrande} variant="outlined" 
                     value={currVal}/>
                   </form>
                 </Paper>
