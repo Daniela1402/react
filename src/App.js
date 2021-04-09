@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-no-undef */
-import React, { useState } from 'react';
+import React from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
@@ -8,7 +8,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import TextField from "@material-ui/core/TextField"; 
-
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -82,6 +81,7 @@ if(TipoDato === "number") {
     }
 }
   }
+
   return (
 
     <React.Fragment>
@@ -94,6 +94,7 @@ if(TipoDato === "number") {
                 <Paper className={classes.paper}>
                   <form className={classes.root} noValidate autoComplete="off">
                    
+
                     <TextField id="outlined-basic" fullWidth label="Ingrese un número" className={classes.textGrande} variant="outlined" 
                     value={currVal}/>
                   </form>
@@ -103,28 +104,28 @@ if(TipoDato === "number") {
               </Grid>
               <Grid item xs={2}>
                 <Paper className={classes.paper}>
-                  <Button variant="outlined" color="primary" onClick={() => procesocalculdora("clear")}>
+                  <Button variant="outlined" color="secondary">
                     AC
                   </Button>
                 </Paper>
               </Grid>
               <Grid item xs={2}>
                 <Paper className={classes.paper}>
-                  <Button variant="outlined" color="primary" onClick={() => procesocalculdora("clear")}>
+                  <Button variant="outlined" color="">
                     CE
                   </Button>
                 </Paper>
               </Grid>
               <Grid item xs={2}>
                 <Paper className={classes.paper}>
-                  <Button variant="outlined" color="primary" onClick={() => procesocalculdora("porcentaje")}>
+                  <Button variant="outlined" color="primary">
                     %
                   </Button>
                 </Paper>
               </Grid>
               <Grid item xs={2}>
                 <Paper className={classes.paper}>
-                  <Button variant="outlined" color="primary" onClick={() => procesocalculdora("operador","/")} >
+                  <Button variant="outlined" color="primary">
                     /
                   </Button>
                 </Paper>
@@ -133,32 +134,33 @@ if(TipoDato === "number") {
               <Grid item xs={2}>
               </Grid>
               
+
               <Grid item xs={2}>
               </Grid>
               <Grid item xs={2}>
                 <Paper className={classes.paper}>
-                  <Button variant="outlined" color="secondary"  onClick={() => procesocalculdora("number",7)}>
+                  <Button variant="outlined" color="secondary">
                     7
                   </Button>
                 </Paper>
               </Grid>
               <Grid item xs={2}>
                 <Paper className={classes.paper}>
-                  <Button variant="outlined" color="secondary" onClick={() => procesocalculdora("number",8)}>
+                  <Button variant="outlined" color="">
                     8
                   </Button>
                 </Paper>
               </Grid>
               <Grid item xs={2}>
                 <Paper className={classes.paper}>
-                  <Button variant="outlined" color="secondary"  onClick={() => procesocalculdora("number",9)}>
+                  <Button variant="outlined" color="primary">
                     9
                   </Button>
                 </Paper>
               </Grid>
               <Grid item xs={2}>
                 <Paper className={classes.paper}>
-                  <Button variant="outlined" color="primary"  onClick={() => procesocalculdora("operator","*")}>
+                  <Button variant="outlined" color="primary">
                     *
                   </Button>
                 </Paper>
@@ -167,32 +169,33 @@ if(TipoDato === "number") {
               <Grid item xs={2}>
               </Grid>
               
+
               <Grid item xs={2}>
               </Grid>
               <Grid item xs={2}>
                 <Paper className={classes.paper}>
-                  <Button variant="outlined" color="secondary"  onClick={() => procesocalculdora("number",4)}>
+                  <Button variant="outlined" color="secondary">
                     4
                   </Button>
                 </Paper>
               </Grid>
               <Grid item xs={2}>
                 <Paper className={classes.paper}>
-                  <Button variant="outlined" color="secondary"  onClick={() => procesocalculdora("number",5)}>
+                  <Button variant="outlined" color="">
                     5
                   </Button>
                 </Paper>
               </Grid>
               <Grid item xs={2}>
                 <Paper className={classes.paper}>
-                  <Button variant="outlined" color="secondary"  onClick={() => procesocalculdora("number",6)}>
+                  <Button variant="outlined" color="primary">
                     6
                   </Button>
                 </Paper>
               </Grid>
               <Grid item xs={2}>
                 <Paper className={classes.paper}>
-                  <Button variant="outlined" color="primary" onClick={() => procesocalculdora("operator","-")}>
+                  <Button variant="outlined" color="primary">
                     -
                   </Button>
                 </Paper>
@@ -201,32 +204,33 @@ if(TipoDato === "number") {
               <Grid item xs={2}>
               </Grid>
               
+
               <Grid item xs={2}>
               </Grid>
               <Grid item xs={2}>
                 <Paper className={classes.paper}>
-                  <Button variant="outlined" color="secondary"  onClick={() => procesocalculdora("number",1)}>
+                  <Button variant="outlined" color="secondary">
                     1
                   </Button>
                 </Paper>
               </Grid>
               <Grid item xs={2}>
                 <Paper className={classes.paper}>
-                  <Button variant="outlined" color="secondary"  onClick={() => procesocalculdora("number",2)}>
+                  <Button variant="outlined" color="">
                     2
                   </Button>
                 </Paper>
               </Grid>
               <Grid item xs={2}>
                 <Paper className={classes.paper}>
-                  <Button variant="outlined" color="secondary"  onClick={() => procesocalculdora("number",3)}>
+                  <Button variant="outlined" color="primary">
                     3
                   </Button>
                 </Paper>
               </Grid>
               <Grid item xs={2}>
                 <Paper className={classes.paper}>
-                  <Button variant="outlined" color="primary" onClick={() => procesocalculdora("operator","+")}>
+                  <Button variant="outlined" color="primary">
                     +
                   </Button>
                 </Paper>
@@ -239,21 +243,21 @@ if(TipoDato === "number") {
               </Grid>
               <Grid item xs={2}>
                 <Paper className={classes.paper}>
-                  <Button variant="outlined" color="secondary"  onClick={() => procesocalculdora("number",0)}>
+                  <Button variant="outlined" color="secondary">
                     0
                   </Button>
                 </Paper>
               </Grid>
               <Grid item xs={2}>
                 <Paper className={classes.paper}>
-                  <Button variant="outlined" color="primary"  onClick={() => procesocalculdora("number", ".")}>
+                  <Button variant="outlined" color="">
                     .
                   </Button>
                 </Paper>
               </Grid>
               <Grid item xs={4}>
                 <Paper className={classes.paper}>
-                  <Button variant="outlined" color="primary" onClick={() => procesocalculdora("equal")}>
+                  <Button variant="outlined" color="primary">
                     =
                   </Button>
                 </Paper>
